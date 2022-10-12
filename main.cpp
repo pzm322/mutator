@@ -50,7 +50,7 @@ void handle_message( const std::string& message, void* user_data ) {
             return;
         }
         
-      std::ifstream mapfile_stream( "D:\\hello-world.map" );
+        std::ifstream mapfile_stream( "D:\\hello-world.map" );
         std::stringstream map_stream;
         map_stream << mapfile_stream.rdbuf( );
         mapfile_stream.close( );
